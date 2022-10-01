@@ -6,21 +6,131 @@
 body{
 	box-sizing: border-box;
 }
-/* midsection css */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+
+
+header {
+    width: 100%;
+    /* position: sticky; */
+    top: 0;
+    background-color: white;
 }
 
-body {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
+nav {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-bottom: 25px;
 }
+
+.box1_5 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 17%;
+}
+
+.box2_5 {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img_align {
+    vertical-align: top;
+    height: 25px;
+    margin-top: -4px;
+}
+
+.box1_5>a {
+    text-decoration: none;
+    vertical-align: top;
+    font-family: sans-serif;
+    padding-top: 15px;
+    margin-top: 0px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.box1_5>a:hover {
+    text-decoration: underline;
+}
+
+.box2_5>button:hover {
+    background-color: #d40d31;
+}
+
+.btn-class {
+    padding: 12px 42px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #E4002B;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fas_size {
+    margin: 5px 0px;
+    width: 55px;
+    cursor: pointer;
+}
+
+.icon-border {
+    border-right: 1px solid silver;
+    height: 30px;
+
+}
+
+.nav-bottom {
+    display: flex;
+    background-color: #202124;
+    color: white;
+    justify-content: center;
+    height: 44px;
+    cursor: pointer;
+}
+
+.nav-bottom:hover {
+    background-color: #303133;
+}
+
+.nav-bottom>.para {
+    margin-top: 12px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.nav-bottom>.location {
+    width: 20px;
+    margin-top: 9px;
+    color: #E4002B;
+}
+
+.nav-top {
+    width: 85%;
+    height: 28px;
+    margin: auto;
+    margin-top: -6px;
+}
+
+.nav-top>img {
+    margin-left: 1.65%;
+}
+
+#mobile_nav {
+    display: none;
+}
+
+.nav-bottom>a {
+    display: none;
+}
+
+
 
 body::-webkit-scrollbar {
     display: none;
@@ -295,7 +405,7 @@ a img {
     text-decoration: none;
     width: 269px;
     height: 280px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
     /* border: 1px solid black; */
 }
 

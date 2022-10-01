@@ -136,6 +136,7 @@
         .nav-bottom>a {
             display: none;
         }
+        
 
         /* ----------------------------------------media query------------------------------------------------------ */
         @media only screen and (min-width:0px) and (max-width:1024px) {
@@ -322,9 +323,7 @@
 
         }
 
-        /* #right h1{
-           display: none;
-        } */
+        
 
         p {
             font-size: 20px;
@@ -367,7 +366,7 @@
             display: flex;
             margin: auto;
             margin-top: 50px;
-            /* border: 1px solid red; */
+           
         }
 
         ul {
@@ -385,7 +384,7 @@
 
         .cards44 {
             width: 18%;
-            /* background-color: yellow; */
+           
         }
 
         ul p {
@@ -394,14 +393,14 @@
 
         #lastbox44 {
             display: flex;
-            /* border: 1px solid green; */
+            
             height: 50px;
             margin-top: 60px;
         }
 
         .section44 {
             display: flex;
-            /* border: 1px solid red; */
+           
             width: 75%;
             margin-right: 80px;
         }
@@ -464,17 +463,17 @@
     <header>
         <div id="mobile_nav">
             <a href=""><i class="fas fa-bars fa-1x"></i></a>
-            <a href="index.html"><img src="images\kfc.jpeg" alt="kfc"></a>
+            <a href="index.html"><img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="kfc"></a>
             <a href="cart.html"><i class="fas fa-shopping-bag fa-1x "></i></a>
         </div>
         <div class="nav-top">
-            <img src="images\KFC navlines.jpg" alt="lines" style="height: 80%; width: 4%;">
+            <!-- <img src="images\KFC navlines.jpg" alt="lines" style="height: 80%; width: 4%;"> -->
         </div>
         <nav>
             <div class="box1_5">
-                <a href="index.html"><img class="img_align" src="images\Nav KFC.jpg" alt="chicken"></a>
+                <a href="index.html"><img class="img_align" src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="chicken"></a>
                 <a href="menu.html">Menu</a>
-                <a href="Dealspage.html">Careers</a>
+                <a href="Dealspage.html">Deals</a>
                
             </div>
             <div class="box2_5">
@@ -499,91 +498,71 @@
         <div id=left>
 
             <h1>KFC® MENU</h1>
-            <p>Featured</p>
-            <p>Beyond Fried Chicken</p>
-            <p>Buckets</p>
-            <p>Tenders</p>
-            <p>Sandwiches</p>
-            <p>Fried Chicken</p>
-            <p>Pot Pies & Bowls</p>
-            <p>A La Carte</p>
-            <p>Sides</p>
-            <p>Sauces</p>
-            <p>Desserts</p>
-            <p>Drinks</p>
+            <p>CHICKEN BUCKETS</p>
+            <p>NEW LAUNCH</p>
+            <p> BIRYANI Buckets</p>
+            <p>BOX MEALS</p>
+            
+            
+            <p>Burgers</p>
+            <p>Stay Home Special</p>
+            <p>Snacks</p>
+            <p>BEVERAGES</p>
         </div>
 
         <div id=right>
             <br>
             <br>
             <br>
-            <h1>FEATURED</h1>
+            <h1>CHICKEN BUCKETS</h1>
             <div id="conta6">
             </div>
             <br>
-            <h1>BEYOND FRIED CHICKEN</h1>
+            <h1>NEW LAUNCH</h1>
             <div id="contai6">
             </div>
             <br>
 
-            <h1>BUCKETS</h1>
+            <h1>BIRYANI Buckets</h1>
             <div id="contain6">
             </div>
             <br>
             <br>
-            <h1>TENDERS</h1>
+            <h1>BOX MEALS</h1>
             <div id="containe6">
             </div>
             <br>
-            <h1>SANDWICHES</h1>
+            <h1>Burgers</h1>
             <div id="c6">
             </div>
             <br>
             <br>
-            <h1> FRIED CHICKEN</h1>
+            <h1>Stay Home Special</h1>
             <div id="co6">
             </div>
             <br>
             <br>
 
-            <h1>POT PIES AND BOWLS</h1>
+            <h1>Snacks</h1>
             <div id="con6">
             </div>
             <br>
             <br>
-            <h1> A LA CARTE</h1>
+            <h1> </h1>
             <div id="cont6">
             </div>
             <br>
             <br>
-            <h1> SIDES</h1>
+            <h1> BEVERAGE</h1>
             <div id="container6">
             </div>
             <br>
             <br>
-            <h1> SAUCES</h1>
-            <div id="container6c">
-            </div>
-            <br>
-            <br>
-            <br>
-            <br>
-
-            <h1>DESSERTS </h1>
-            <div id="container6co">
-            </div>
-            <br>
-            <br>
-
-            <h1> DRINKS</h1>
-            <div id="container6con">
-            </div>
-            <br>
-            <br>
+           
         </div>
     </div>
     <!-- ------------------------------------------------------------------------Bottom Panel----------------------------------------------- -->
-    <footer>
+     <footer>
         <div id="container44">
             <p>Calorie Statement</p>
             <p>2,000 calories a day is used for general nutrition advice, but calorie needs vary. Additional nutrition
@@ -676,15 +655,17 @@
             </div>
         </div>
     </footer>
+    
 
+</div>
 </body>
 
 
 </html>
 <script>
-    //--------------------------------------------------------------------------------------function buttons
+//--------------------------------------------------------------------------------------function buttons
 
-    document.querySelector("#login").addEventListener("click", loginPage);
+document.querySelector("#login").addEventListener("click", loginPage);
     function loginPage() {
         window.location.href = "login.html"
     }
@@ -695,7 +676,7 @@
     }
 
     //---------------------------------------------------------------------------------------------//1
-    var FEATURED = [
+    var CHICKEN = [
         {
             image_url:
                 "https://digitaleat.kfc.com/menus/image/bare/kfc-sideslovers3sides?q=75",
@@ -770,7 +751,7 @@
 
     ];
 
-    localStorage.setItem("featured", JSON.stringify(FEATURED));
+    localStorage.setItem("featured", JSON.stringify(CHICKEN));
     var cartarray = JSON.parse(localStorage.getItem("cartdata")) || [];
     var nos=cartarray.length
     document.querySelector("#noofcartitem").textContent= nos;
@@ -819,19 +800,19 @@
 
             box.append(image, name, calories, div2)
             document.querySelector("#conta6").append(box);
-            // console.log(array5)
+          
         })
     }
     function addcartfunc(elem) {
-        // console.log(elem)
+        
         cartarray.push(elem);
         localStorage.setItem("cartdata", JSON.stringify(cartarray));
-        // console.log(cartdata)
+       
         alert("Added successfully");
         
     }
     //----------------------------------------------------------------------------------------//2
-    var BEYOND_FRIED_CHICKEN = [
+    var newLaunch= [
 
         {
             image_url:
@@ -863,7 +844,7 @@
 
 
     ];
-    localStorage.setItem("beyond", JSON.stringify(BEYOND_FRIED_CHICKEN));
+    localStorage.setItem("beyond", JSON.stringify(newLaunch));
 
     var array6 = JSON.parse(localStorage.getItem("beyond")) || [];
     createTable6(array6);
@@ -907,18 +888,18 @@
 
             box.append(image, name, calories, div2)
             document.querySelector("#contai6").append(box);
-            // console.log(array6)
+            
         })
     }
     function addcartfunc(elem) {
-        // console.log(elem)
+        
         cartarray.push(elem);
         localStorage.setItem("cartdata", JSON.stringify(cartarray))
         alert("Added successfully");
         
     }
     //------------------------------------------------------------------------------------------//3
-    var BUCKETS = [
+    var biryaniBuckets = [
 
 
 
@@ -1050,7 +1031,7 @@
             price: 17.99,
         },
     ];
-    localStorage.setItem("buck", JSON.stringify(BUCKETS));
+    localStorage.setItem("buck", JSON.stringify(biryaniBuckets));
 
     var array7 = JSON.parse(localStorage.getItem("buck")) || [];
     createTable7(array7);
@@ -1107,7 +1088,7 @@
         document.querySelector("#noofcartitem").textContent = nos;
     }
     //----------------------------------------------------------------------------------------//4
-    var TENDERS = [
+    var boxMeals = [
 
         {
             image_url:
@@ -1225,7 +1206,7 @@
 
 
     ];
-    localStorage.setItem("tenders", JSON.stringify(TENDERS));
+    localStorage.setItem("tenders", JSON.stringify(boxMeals));
 
     var array8 = JSON.parse(localStorage.getItem("tenders")) || [];
     createTable8(array8);
@@ -1281,7 +1262,7 @@
     }
 
     //-------------------------------------------------------------------------------------//5
-    var SANDWICHES = [
+    var Burgers = [
 
         {
             image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-cknsndcombo?q=75&w=1280",
@@ -1314,7 +1295,7 @@
             price: 7.39,
         }
     ]
-    localStorage.setItem("sand", JSON.stringify(SANDWICHES));
+    localStorage.setItem("sand", JSON.stringify(Burgers));
 
     var array1 = JSON.parse(localStorage.getItem("sand")) || [];
     createTable1(array1);
@@ -1368,7 +1349,7 @@
         alert("Added successfully");
     }
     //-------------------------------------------------------------------------------------------------//6
-    var FRIED_CHICKEN = [
+    var stayHome = [
 
         {
             image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-1BrFU?q=75&w=1280",
@@ -1461,7 +1442,7 @@
             price: 5.36,
         }
     ]
-    localStorage.setItem("fried", JSON.stringify(FRIED_CHICKEN));
+    localStorage.setItem("fried", JSON.stringify(stayHome));
 
     var array2 = JSON.parse(localStorage.getItem("fried")) || [];
     createTable2(array2);
@@ -1515,7 +1496,7 @@
         alert("Added successfully");
     }
     //---------------------------------------------------------------------------------------------//7
-    var POT_PIES_and_BOWLS = [
+    var Snacks = [
 
         {
             image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-FamousBowlFillUp?q=75&w=1280",
@@ -1531,7 +1512,7 @@
         }
 
     ]
-    localStorage.setItem("pies", JSON.stringify(POT_PIES_and_BOWLS));
+    localStorage.setItem("pies", JSON.stringify(Snacks));
 
     var array3 = JSON.parse(localStorage.getItem("pies")) || [];
     createTable3(array3);
@@ -1586,7 +1567,7 @@
     }
     //---------------------------------------------------------------------------------------------------//8
 
-    var A_LA_CARTE = [
+    var Beverages = [
 
         {
             image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-AlcBreast?q=75&w=1280",
@@ -1631,7 +1612,7 @@
             price: 4.99,
         }
     ]
-    localStorage.setItem("alacarte", JSON.stringify(A_LA_CARTE));
+    localStorage.setItem("alacarte", JSON.stringify(Beverages));
 
     var array4 = JSON.parse(localStorage.getItem("alacarte")) || [];
     createTable4(array4);
@@ -1685,389 +1666,7 @@
         alert("Added successfully");
     }
     //----------------------------------------------------------------------------------------//9
-    var SIDES = [
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndFries?q=75&w=1280",
-            name: "Secret Recipe Fries",
-            calories: "calories- 230-930",
-            price: 2.39,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMashGravy?q=75&w=1280",
-            name: "Mashed Potatoes & Greavy",
-            calories: "calories- 130-590",
-            price: 2.39,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMacCheese?q=75&w=1280",
-            name: "Mac & Cheese",
-            calories: "calories- 140-540",
-            price: 2.39,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-biscuit?q=75&w=1280",
-            name: "Biscuit",
-            calories: "calories-180",
-            price: 0.69,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndColeslaw?q=75&w=1280",
-            name: "Cole Slaw",
-            calories: "calories-170-640",
-            price: 2.39,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndGravy?q=75&w=1280",
-            name: "Greavy",
-            calories: "calories- 80-130",
-            price: 0.99,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndCorn?q=75&w=1280",
-            name: "Whole Karnel Corn",
-            calories: "calories-70-280",
-            price: 2.39,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-IndMash?q=75&w=1280",
-            name: "Mashed Potatoes (No Gravy)",
-            calories: "calories- 110-460",
-            price: 2.39,
-        },
-    ]
-    localStorage.setItem("sides", JSON.stringify(SIDES));
-
-    var array9 = JSON.parse(localStorage.getItem("sides")) || [];
-    createTable9(array9);
-    function createTable9(array9) {
-        array9.map(function (elem) {
-            var box = document.createElement("div");
-            box.setAttribute("id", "box");
-
-
-            // box.style.border= "1px solid green";
-
-            var image = document.createElement("img");
-            image.setAttribute("src", elem.image_url);
-            image.style.height = "70%";
-            image.style.width = "100%";
-
-            var name = document.createElement("p");
-            name.textContent = elem.name;
-            name.style.marginBottom = "-10px";
-
-            var calories = document.createElement("p");
-            calories.textContent = elem.calories;
-            calories.style.marginBottom = "-10px";
-
-            var div2 = document.createElement("div");
-            div2.setAttribute("id", "flex")
-
-            var loc = document.createElement("p");
-            loc.textContent = `Price: $${elem.price}`;
-
-            var btn = document.createElement("button");
-            btn.innerHTML = "Add to cart";
-            btn.addEventListener("click", function () {
-                addcartfunc(elem);
-                nos++;
-                console.log(nos)
-                document.querySelector("#noofcartitem").textContent= nos;
-            });
-
-            div2.append(loc, btn)
-
-            box.append(image, name, calories, div2)
-            document.querySelector("#container6").append(box);
-            // console.log(array9)
-        })
-    }
-    function addcartfunc(elem) {
-        // console.log(elem)
-        cartarray.push(elem);
-        localStorage.setItem("cartdata", JSON.stringify(cartarray))
-        alert("Added successfully");
-    }
-    //-----------------------------------------------------------------------------------------//10
-    var SAUCES = [
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-KFCSauce?q=75&w=1280",
-            name: "KFC Sauce",
-            calories: "calories- 90",
-            price: 0.25,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-HoneyBBQ?q=75&w=1280",
-            name: "Honey BBQ",
-            calories: "calories- 40",
-            price: 0.25,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-HoneyBBQ?q=75&w=1280",
-            name: "Honey Musterd",
-            calories: "calories-120",
-            price: 0.25,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-HoneyBBQ?q=75&w=1280",
-            name: "Classic Ranch",
-            calories: "calories- 100",
-            price: 1.00,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-honeySauce2?q=75&w=1280",
-            name: "Honey Sauce",
-            calories: "calories-30",
-            price: 3.21,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-hotSauce2?q=75&w=1280",
-            name: "Hot Sauce",
-            calories: "calories-0",
-            price: 3.26,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-ketchup2?q=75&w=1280",
-            name: "Ketchup",
-            calories: "calories-30",
-            price: 1.25,
-        }
-    ]
-    localStorage.setItem("sauces", JSON.stringify(SAUCES));
-
-    var array10 = JSON.parse(localStorage.getItem("sauces")) || [];
-    createTable10(array10);
-    function createTable10(array10) {
-        array10.map(function (elem) {
-            var box = document.createElement("div");
-            box.setAttribute("id", "box");
-
-
-            // box.style.border= "1px solid green";
-
-            var image = document.createElement("img");
-            image.setAttribute("src", elem.image_url);
-            image.style.height = "75%";
-            image.style.width = "100%";
-
-            var name = document.createElement("p");
-            name.textContent = elem.name;
-            name.style.marginBottom = "-10px";
-
-            var calories = document.createElement("p");
-            calories.textContent = elem.calories;
-            calories.style.marginBottom = "-10px";
-
-            var div2 = document.createElement("div");
-            div2.setAttribute("id", "flex")
-
-            var loc = document.createElement("p");
-            loc.textContent = `Price: $${elem.price}`;
-
-            var btn = document.createElement("button");
-            btn.innerHTML = "Add to cart";
-            btn.addEventListener("click", function () {
-                addcartfunc(elem);
-                nos++;
-                console.log(nos)
-                document.querySelector("#noofcartitem").textContent= nos;
-            });
-
-            div2.append(loc, btn)
-
-            box.append(image, name, calories, div2)
-            document.querySelector("#container6c").append(box);
-            // console.log(array10)
-        })
-    }
-    function addcartfunc(elem) {
-        // console.log(elem)
-        cartarray.push(elem);
-        localStorage.setItem("cartdata", JSON.stringify(cartarray))
-        alert("Added successfully");
-    }
-    //---------------------------------------------------------------------//11
-    var DESSERTS = [
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-1Cookie?q=75&w=1280",
-            name: "Chocolate Chip Cookie",
-            calories: "calories-120",
-            price: 0.59,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-CCCake?q=75&w=1280",
-            name: "Chocolate Chip Cake",
-            calories: "calories- 300",
-            price: 5.00,
-        }
-    ];
-    localStorage.setItem("desserts", JSON.stringify(DESSERTS));
-
-    var array11 = JSON.parse(localStorage.getItem("desserts")) || [];
-    createTable11(array11);
-    function createTable11(array11) {
-        array11.map(function (elem) {
-            var box = document.createElement("div");
-            box.setAttribute("id", "box");
-
-
-            // box.style.border= "1px solid green";
-
-            var image = document.createElement("img");
-            image.setAttribute("src", elem.image_url);
-            image.style.height = "75%";
-            image.style.width = "100%";
-
-            var name = document.createElement("p");
-            name.textContent = elem.name;
-            name.style.marginBottom = "-10px";
-
-            var calories = document.createElement("p");
-            calories.textContent = elem.calories;
-            calories.style.marginBottom = "-10px";
-
-            var div2 = document.createElement("div");
-            div2.setAttribute("id", "flex")
-
-            var loc = document.createElement("p");
-            loc.textContent = `Price: $${elem.price}`;
-
-            var btn = document.createElement("button");
-            btn.innerHTML = "Add to cart";
-            btn.addEventListener("click", function () {
-                addcartfunc(elem);
-                nos++;
-                console.log(nos)
-                document.querySelector("#noofcartitem").textContent= nos;
-            });
-
-            div2.append(loc, btn)
-
-            box.append(image, name, calories, div2)
-            document.querySelector("#container6co").append(box);
-            // console.log(array11)
-        })
-    }
-    function addcartfunc(elem) {
-        console.log(elem)
-        cartarray.push(elem);
-        localStorage.setItem("cartdata", JSON.stringify(cartarray))
-        alert("Added successfully");
-    }
-    //-------------------------------------------------------------------------------------------------//12
-    var DRINKS = [
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-Pepsi?q=75&w=1280",
-            name: "PEPSI",
-            calories: "calories-250-380",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-dietPepsi?q=75&w=1280",
-            name: "Diet Pepsi",
-            calories: "calories-0",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-mtndew?q=75&w=1280",
-            name: "Mountain Dew",
-            calories: "calories-270-410",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-mtndewsweetlightning?q=75&w=1280",
-            name: "Mountain Dew Sweet Lightning",
-            calories: "calories-160-230",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-drPepper?q=75&w=1280",
-            name: "DR. Pepper",
-            calories: "calories-240-360",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-sierramist?q=75&w=1280",
-            name: "Sierra Mist",
-            calories: "calories- 260-380",
-            price: 1.79,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-sweetTea?q=75&w=1280",
-            name: "Sweet Tea",
-            calories: "calories-280-430",
-            price: 1.99,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-LemMed?q=75&w=1280",
-            name: "Lemonade",
-            calories: "calories-140-210",
-            price: 2.29,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-StrLemMed?q=75&w=1280",
-            name: "Strawberry Lemonade",
-            calories: "calories- 170-260",
-            price: 3.99,
-        },
-        {
-            image_url: "https://digitaleat.kfc.com/menus/image/bare/kfc-BevBucket?q=75&w=1280",
-            name: "1/2 Callon Beverage",
-            calories: "calories- 0-910",
-            price: 1.79,
-        }
-    ]
-    localStorage.setItem("drinks", JSON.stringify(DRINKS));
-
-    var array12 = JSON.parse(localStorage.getItem("drinks")) || [];
-    createTable12(array12);
-    function createTable12(array12) {
-        array12.map(function (elem) {
-            var box = document.createElement("div");
-            box.setAttribute("id", "box");
-
-
-            // box.style.border= "1px solid green";
-
-            var image = document.createElement("img");
-            image.setAttribute("src", elem.image_url);
-            image.style.height = "75%";
-            image.style.width = "100%";
-
-            var name = document.createElement("p");
-            name.textContent = elem.name;
-            name.style.marginBottom = "-10px";
-
-            var calories = document.createElement("p");
-            calories.textContent = elem.calories;
-            calories.style.marginBottom = "-10px";
-
-            var div2 = document.createElement("div");
-            div2.setAttribute("id", "flex")
-
-            var loc = document.createElement("p");
-            loc.textContent = `Price: $${elem.price}`;
-
-            var btn = document.createElement("button");
-            btn.innerHTML = "Add to cart";
-            btn.addEventListener("click", function () {
-                addcartfunc(elem);
-                nos++;
-                console.log(nos)
-                document.querySelector("#noofcartitem").textContent= nos;
-            });
-
-            div2.append(loc, btn)
-
-            box.append(image, name, calories, div2)
-            document.querySelector("#container6con").append(box);
-            // console.log(array12)
-        })
-    }
-    function addcartfunc(elem) {
-        // console.log(elem)
-        cartarray.push(elem);
-        localStorage.setItem("cartdata", JSON.stringify(cartarray))
-        alert("Added successfully");
-    }
+    
 </script>
+
+    
